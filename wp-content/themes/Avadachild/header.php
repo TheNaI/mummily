@@ -104,10 +104,10 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
 <!--            Custom Header-->
             <header class="custom-header <?php echo esc_attr($header_wrapper_class); ?>">
 
-                <div class="<?php echo esc_attr('fusion-header-' . Avada()->settings->get('header_layout') . ' fusion-logo-' . strtolower(Avada()->settings->get('logo_alignment')) . ' fusion-sticky-menu-' . has_nav_menu('sticky_navigation') . ' fusion-sticky-logo-' . $sticky_header_logo . ' fusion-mobile-logo-' . $mobile_logo . ' fusion-mobile-menu-design-' . strtolower(Avada()->settings->get('mobile_menu_design')) . $sticky_header_type2_layout . ' ' . $menu_text_align); ?>">
+                <div class=" <?php echo esc_attr('fusion-header-' . Avada()->settings->get('header_layout') . ' fusion-logo-' . strtolower(Avada()->settings->get('logo_alignment')) . ' fusion-sticky-menu-' . has_nav_menu('sticky_navigation') . ' fusion-sticky-logo-' . $sticky_header_logo . ' fusion-mobile-logo-' . $mobile_logo . ' fusion-mobile-menu-design-' . strtolower(Avada()->settings->get('mobile_menu_design')) . $sticky_header_type2_layout . ' ' . $menu_text_align); ?>">
                     <div class="fusion-header-sticky-height"></div>
-                    <div class="fusion-header">
-                        <div class="fusion-row">
+                    <div class="custom-header-bg fusion-header">
+                        <div class="fusion-row header-custom-row">
                             <div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px"
                                  data-margin-left="0px" data-margin-right="0px">
                                 <a class="fusion-logo-link" href="http://mummilylocal/">
@@ -115,6 +115,8 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
                                     <!-- mobile logo -->
 
                                     <!-- sticky header logo -->
+                                </a>
+                                <a class="woo"  href="#"><img src="/wp-content/themes/Avadachild/images/header/woo.jpg" alt="">
                                 </a>
                             </div>
                             <nav class="fusion-main-menu" aria-label="Main Menu">
