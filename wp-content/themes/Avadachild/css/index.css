@@ -4,3 +4,19 @@
 .hello{
 	color:red;
 }
+/*
+.fusion-main-menu{
+  position: relative;
+}
+.fusion-main-menu .fusion-main-menu-cart>a:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../images/new-cart.png);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	border-radius: 0;
+}
+*/
