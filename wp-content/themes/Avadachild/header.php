@@ -102,7 +102,7 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
             }
             ?>
 <!--            Custom Header-->
-            <header class="<?php echo esc_attr($header_wrapper_class); ?>">
+            <header class="custom-header <?php echo esc_attr($header_wrapper_class); ?>">
 
                 <div class="<?php echo esc_attr('fusion-header-' . Avada()->settings->get('header_layout') . ' fusion-logo-' . strtolower(Avada()->settings->get('logo_alignment')) . ' fusion-sticky-menu-' . has_nav_menu('sticky_navigation') . ' fusion-sticky-logo-' . $sticky_header_logo . ' fusion-mobile-logo-' . $mobile_logo . ' fusion-mobile-menu-design-' . strtolower(Avada()->settings->get('mobile_menu_design')) . $sticky_header_type2_layout . ' ' . $menu_text_align); ?>">
                     <div class="fusion-header-sticky-height"></div>
@@ -111,13 +111,7 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
                             <div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px"
                                  data-margin-left="0px" data-margin-right="0px">
                                 <a class="fusion-logo-link" href="http://mummilylocal/">
-                                    <img src="//mummilylocal/wp-content/themes/Avada/assets/images/logo.png" width=""
-                                         height="" alt="mummily Logo" class="fusion-logo-1x fusion-standard-logo">
-
-                                    <img src="//mummilylocal/wp-content/themes/Avada/assets/images/logo.png" width=""
-                                         height="" alt="mummily Retina Logo"
-                                         class="fusion-standard-logo fusion-logo-2x">
-
+                                    <?php avada_logo(); ?>
                                     <!-- mobile logo -->
 
                                     <!-- sticky header logo -->
@@ -125,29 +119,27 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
                             </div>
                             <nav class="fusion-main-menu" aria-label="Main Menu">
                                 <ul role="menubar" id="menu-new" class="fusion-menu">
-                                    <li role="menuitem" id="menu-item-5"
-                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-5"><a
-                                                href="http://mummilylocal/2017/06/09/hello-world/"><span
-                                                    class="menu-text">Page1212</span></a></li>
-                                    <li class="fusion-custom-menu-item fusion-main-menu-search fusion-last-menu-item"><a
-                                                class="fusion-main-menu-icon" aria-hidden="true"></a>
-                                        <div class="fusion-custom-menu-item-contents">
-                                            <form role="search" class="searchform" method="get"
-                                                  action="http://mummilylocal/">
-                                                <div class="search-table">
-                                                    <div class="search-field">
-                                                        <input type="text" value="" name="s" class="s"
-                                                               placeholder="Search ..." required="" aria-required="true"
-                                                               aria-label="Search ...">
-                                                    </div>
-                                                    <div class="search-button">
-                                                        <input type="submit" class="searchsubmit" value=""
-                                                               alt="Search">
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </li>
+                                    <?php echo wp_nav_menu(  ); ?>
+<!--                                    <li class="fusion-custom-menu-item fusion-main-menu-search fusion-last-menu-item">-->
+<!--                                        <a-->
+<!--                                                class="fusion-main-menu-icon" aria-hidden="true"></a>-->
+<!--                                        <div class="fusion-custom-menu-item-contents">-->
+<!--                                            <form role="search" class="searchform" method="get"-->
+<!--                                                  action="http://mummilylocal/">-->
+<!--                                                <div class="search-table">-->
+<!--                                                    <div class="search-field">-->
+<!--                                                        <input type="text" value="" name="s" class="s"-->
+<!--                                                               placeholder="Search ..." required="" aria-required="true"-->
+<!--                                                               aria-label="Search ...">-->
+<!--                                                    </div>-->
+<!--                                                    <div class="search-button">-->
+<!--                                                        <input type="submit" class="searchsubmit" value=""-->
+<!--                                                               alt="Search">-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                            </form>-->
+<!--                                        </div>-->
+<!--                                    </li>-->
                                 </ul>
                             </nav>
 
