@@ -20,4 +20,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php avada_logo(); ?>
 		<?php avada_main_menu(); ?>
 	</div>
+
 </div>
