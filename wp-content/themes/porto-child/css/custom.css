@@ -195,3 +195,14 @@
 #header:not(.sticky-header) #mini-cart.minicart-arrow-alt .cart-head:hover .minicart-icon:before{
     opacity: 0.5;
 }
+
+.header-minicart-arrow-alt{
+    display: inline-block;
+}
+#header .star {
+    display: inline-block;
+    transition: 0.2s;
+}
+#header .star:hover {
+    opacity: 0.5;
+}
