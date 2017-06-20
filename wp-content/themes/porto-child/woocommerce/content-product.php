@@ -130,7 +130,6 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
          */
         do_action( 'woocommerce_after_shop_loop_item_title' );
     ?>
-hello foo
     <?php
         /**
         * woocommerce_after_shop_loop_item hook.

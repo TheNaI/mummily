@@ -39,3 +39,13 @@ ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a:hove
   color:white;
   background-color: #08c;
 }
+ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product.show-outimage-q-onimage .add_to_cart_read_more, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_read_more{
+  background-color: white;
+  border-color: #d8d8d6;
+  color: #6f6e6b !important;
+}
+ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button:hover{
+  color:white !important;
+  background-color: #08c;
+  border-color: #08c;  
+}
