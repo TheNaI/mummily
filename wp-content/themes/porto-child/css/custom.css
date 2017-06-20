@@ -6,3 +6,8 @@
     background-repeat: no-repeat;
     background-color: inherit;
 }
+
+#header.custom {
+    background-image: url("../images/header/bg-re.jpg");
+    background-size: auto 400px;
+}
