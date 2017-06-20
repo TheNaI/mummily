@@ -107,7 +107,8 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
             <?php woocommerce_template_loop_add_to_cart() ?>
         </div>
     </div>
-	<?php do_action( 'porto_woocommerce_before_shop_loop_item_title' ); ?>    <?php if ( version_compare($porto_woo_version, '2.4', '<') ) : ?>
+	<?php do_action( 'porto_woocommerce_before_shop_loop_item_title' ); ?>
+  <?php if ( version_compare($porto_woo_version, '2.4', '<') ) : ?>
         <a class="product-loop-title" <?php echo $more_target ?> href="<?php echo $more_link ?>">
             <h3><?php the_title(); ?></h3>
         </a>    <?php else : ?>
@@ -136,7 +137,8 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
         *
         * @hooked woocommerce_template_loop_product_link_close - 5 : removed
         * @hooked woocommerce_template_loop_add_to_cart - 10
-        */        do_action( 'woocommerce_after_shop_loop_item' );
+        */
+        do_action( 'woocommerce_after_shop_loop_item' );
     ?>
 <?php  if (isset($woocommerce_loop['addlinks_pos']) && $woocommerce_loop['addlinks_pos'] == 'outimage_q_onimage_alt') echo '</div>'; ?>
 </li>
