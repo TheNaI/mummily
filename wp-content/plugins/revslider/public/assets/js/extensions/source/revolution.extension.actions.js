@@ -1,5 +1,5 @@
 /********************************************
- * REVOLUTION 5.3 EXTENSION - ACTIONS
+ * REVOLUTION 5.4.2 EXTENSION - ACTIONS
  * @version: 2.0.7 (28.02.2017)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch

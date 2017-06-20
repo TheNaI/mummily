@@ -1,5 +1,5 @@
 /************************************************
- * REVOLUTION 5.4 EXTENSION - SLIDE ANIMATIONS
+ * REVOLUTION 5.4.2 EXTENSION - SLIDE ANIMATIONS
  * @version: 1.7 (17.03.2017)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch

@@ -1,6 +1,6 @@
 /********************************************
- * REVOLUTION 5.4.0 EXTENSION - VIDEO FUNCTIONS
- * @version: 2.1 (06.04.2017)
+ * REVOLUTION 5.4.2 EXTENSION - VIDEO FUNCTIONS
+ * @version: 2.1.5 (19.04.2017)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch
 *********************************************/
@@ -12,7 +12,7 @@ var _R = jQuery.fn.revolution,
 	extension = {	alias:"Video Min JS",
 					name:"revolution.extensions.video.min.js",
 					min_core: "5.4.1",
-					version:"2.1.0"
+					version:"2.1.1"
 			  };
 
 
@@ -721,8 +721,11 @@ var addVideoListener = function(_nc,opt,startnow) {
 									_R.toggleState(_.videotoggledby);							
 								}
 								
-								if (!fsmode && (event.data==0 || event.data==2) && _nc.data('showcoveronpause')=="on" && _nc.find('.tp-videoposter').length>0) {																
-									punchgs.TweenLite.to(_nc.find('.tp-videoposter'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});
+								if (!fsmode && (event.data==0 || event.data==2) && ((_nc.data('showcoveronpause')=="on" && _nc.find('.tp-videoposter').length>0) || (_nc.data('bgvideo')===1 && _nc.find('.rs-fullvideo-cover').length>0))) {
+									if (_nc.data('bgvideo')===1) 
+										punchgs.TweenLite.to(_nc.find('.rs-fullvideo-cover'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});
+									else
+										punchgs.TweenLite.to(_nc.find('.tp-videoposter'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});
 									punchgs.TweenLite.to(_nc.find('iframe'),0.3,{autoAlpha:0,ease:punchgs.Power3.easeInOut});																			
 								} 
 								if ((event.data!=-1 && event.data!=3)) {
@@ -866,9 +869,11 @@ var addVideoListener = function(_nc,opt,startnow) {
 					});
 
 					f.addEvent('pause', function(data) {
-
-							if (_nc.find('.tp-videoposter').length>0 && _nc.data('showcoveronpause')=="on") {
-								punchgs.TweenLite.to(_nc.find('.tp-videoposter'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});
+							if (((_nc.data('showcoveronpause')=="on" && _nc.find('.tp-videoposter').length>0) || (_nc.data('bgvideo')===1 && _nc.find('.rs-fullvideo-cover').length>0))) {
+								if (_nc.data('bgvideo')===1) 
+									punchgs.TweenLite.to(_nc.find('.rs-fullvideo-cover'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});
+								else
+									punchgs.TweenLite.to(_nc.find('.tp-videoposter'),0.3,{autoAlpha:1,force3D:"auto",ease:punchgs.Power3.easeInOut});							
 								punchgs.TweenLite.to(_nc.find('iframe'),0.3,{autoAlpha:0,ease:punchgs.Power3.easeInOut});
 							} 
 							opt.videoplaying=false;

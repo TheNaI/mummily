@@ -262,7 +262,7 @@ $tp_color_picker_presets = TPColorpicker::get_color_presets();
 			<ul>
 				<li><?php _e('Usage only allowed within Slider Revolution Plugin', 'revslider'); ?></li>
 				<li><?php _e('Licenses via extended license and cooperation with<br>author <a target="_blank" class="rspb_darklink" href="https://creativemarket.com/Qeaql">Qeaql</a>', 'revslider'); ?></li>
-				<li><?php _e('If you need .psd files for objects, you can purchase it freom the original<br>author <a target="_blank" class="rspb_darklink" href="https://creativemarket.com/Qeaql/126175-Scene-creator-Top-view">here</a>', 'revslider'); ?></li>
+				<li><?php _e('If you need .psd files for objects, you can purchase it from the original<br>author <a target="_blank" class="rspb_darklink" href="https://creativemarket.com/Qeaql/126175-Scene-creator-Top-view">here</a>', 'revslider'); ?></li>
 			</ul>
 		</div>
 

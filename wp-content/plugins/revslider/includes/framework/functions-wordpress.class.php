@@ -568,7 +568,6 @@ class RevSliderFunctionsWP {
 		$objQuery = new WP_Query($query);
 
 		$arrPosts = $objQuery->posts;
-
 		
 		foreach($arrPosts as $key=>$post){
 			

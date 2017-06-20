@@ -482,7 +482,7 @@ if($slide->isStaticSlide() || $slider->isSlidesFromPosts()){ //insert sliderid f
 	<div class="rs_breadcrumbs">
 		<a class='breadcrumb-button' href='<?php echo self::getViewUrl("sliders");?>'><i class="eg-icon-th-large"></i><?php _e("All Sliders", 'revslider');?></a>
 		<a class='breadcrumb-button' href="<?php echo self::getViewUrl(RevSliderAdmin::VIEW_SLIDER,"id=$sliderID"); ?>"><i class="eg-icon-cog"></i><?php _e('Slider Settings', 'revslider');?></a>
-		<a class='breadcrumb-button selected' href="#"><i class="eg-icon-pencil-2"></i><?php _e('Slide Editor ', 'revslider');?>"<?php echo ' '.$slider->getParam("title",""); ?>"</a>
+		<a class='breadcrumb-button selected' href="#"><i class="eg-icon-pencil-2"></i><?php _e('Slide Editor ', 'revslider');?>"<?php echo ' '.esc_attr(stripslashes($slider->getParam("title",""))); ?>"</a>
 		<div class="tp-clearfix"></div>
 
 

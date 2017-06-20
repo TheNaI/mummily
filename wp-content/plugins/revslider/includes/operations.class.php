@@ -1379,7 +1379,10 @@ class RevSliderOperations extends RevSliderElementsBase{
 
 					<script type='text/javascript' src='<?php echo $urlPlugin; ?>js/jquery.themepunch.tools.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
 					<script type='text/javascript' src='<?php echo $urlPlugin; ?>js/jquery.themepunch.revolution.min.js?rev=<?php echo RevSliderGlobals::SLIDER_REVISION; ?>'></script>
-					
+					<?php
+					$setRevStartSize = RevSliderFront::add_setREVStartSize();
+					echo $setRevStartSize;
+					?>
 					<?php
 					do_action('revslider_preview_slider_head');
 					?>
@@ -1601,6 +1604,10 @@ class RevSliderOperations extends RevSliderElementsBase{
 		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.parallax.min.js"></script>
 		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.slideanims.min.js"></script>
 		<script type="text/javascript" src="<?php echo $path_js; ?>extensions/revolution.extension.video.min.js"></script>
+		<?php
+		$setRevStartSize = RevSliderFront::add_setREVStartSize();
+		echo $setRevStartSize;
+		?>
 	</head>
 	
 	<body>

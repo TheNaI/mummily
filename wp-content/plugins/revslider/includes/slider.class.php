@@ -2537,6 +2537,8 @@ class RevSliderSlider extends RevSliderElementsBase{
 		if(empty($arrPosts)) RevSliderFunctions::throwError(__('Failed to load Stream', 'revslider'));
 		
 		foreach($arrPosts as $postData){
+			if(empty($postData)) continue; //ignore empty entries, like from instagram
+			
 			$slideTemplate = $slideTemplates[$templateKey];
 			
 			//advance the templates
@@ -2580,11 +2582,21 @@ class RevSliderSlider extends RevSliderElementsBase{
 	 * get slides of the current slider
 	 */
 	public function getSlidesFromGallery($publishedOnly = false, $allwpml = false, $first = false){
-	
+		//global $rs_slide_template;
 		$this->validateInited();
 		
 		$arrSlides = array();
 		$arrSlideRecords = $this->db->fetch(RevSliderGlobals::$table_slides,$this->db->prepare("slider_id = %s", array($this->id)),"slide_order");
+		
+		//add Slides set by postsettings, so slide_template
+		/*if(!empty($rs_slide_template)){
+			foreach($rs_slide_template as $rs_s_t){
+				$rs_s_t_d = $this->db->fetch(RevSliderGlobals::$table_slides,$this->db->prepare("id = %s", array($rs_s_t)),"slide_order");
+				foreach($rs_s_t_d as $rs_s_t_d_v){
+					$arrSlideRecords[] = $rs_s_t_d_v;
+				}
+			}
+		}*/
 		
 		$arrChildren = array();
 		

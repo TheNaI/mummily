@@ -735,13 +735,13 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 						<div class="slidertitlebox">
 
 							<span class="one-third-container">
-								<input placeholder='<?php _e("Enter your Slider Name here", 'revslider')?>' type="text" class='regular-text' id="title" name="title" value="<?php echo RevSliderFunctions::getVal($arrFieldsParams, 'title', '');?>"/>
+								<input placeholder='<?php _e("Enter your Slider Name here", 'revslider')?>' type="text" class='regular-text' id="title" name="title" value="<?php echo esc_attr(stripslashes(RevSliderFunctions::getVal($arrFieldsParams, 'title', ''))); ?>"/>
 								<i class="input-edit-icon"></i>
 								<span class="description"><?php _e("The title of the slider, example: Slider 1", 'revslider')?></span>
 							</span>
 
 							<span class="one-third-container">
-								<input placeholder='<?php _e("Enter your Slider Alias here", 'revslider')?>' type="text" class='regular-text' id="alias" name="alias" value="<?php echo RevSliderFunctions::getVal($arrFieldsParams, 'alias', '');?>"/>
+								<input placeholder='<?php _e("Enter your Slider Alias here", 'revslider')?>' type="text" class='regular-text' id="alias" name="alias" value="<?php echo esc_attr(stripslashes(RevSliderFunctions::getVal($arrFieldsParams, 'alias', ''))); ?>"/>
 								<i class="input-edit-icon"></i>
 								<span class="description"><?php _e("The alias for embedding your slider, example: slider1", 'revslider')?></span>
 							</span>
@@ -4227,9 +4227,9 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 								<div class="clear"></div>
 
 								<!-- SCALE EFFECT ON SCROLL -->
-								/*<span class="label" id="label_scale_scrolleffect" origtitle="<?php _e("Endable / Disable scale Effect on Scroll:", 'revslider');?>"><?php _e("Scale Effect", 'revslider');?> </span>
+								<?php /*<span class="label" id="label_scale_scrolleffect" origtitle="<?php _e("Endable / Disable scale Effect on Scroll:", 'revslider');?>"><?php _e("Scale Effect", 'revslider');?> </span>
 								<input type="checkbox" class="tp-moderncheckbox withlabel" id="scale_scrolleffect" name="scale_scrolleffect" data-unchecked="off" <?php checked(RevSliderFunctions::getVal($arrFieldsParams, "scale_scrolleffect", "off"), "on");?>>
-								<div class="clear"></div>*/
+								<div class="clear"></div>*/ ?>
 
 								<!-- BLUR EFFECT ON SCROLL -->
 								<span class="label" id="label_blur_scrolleffect" origtitle="<?php _e("Endable / Disable Blur Effect on Scroll", 'revslider');?>"><?php _e("Blur Effect", 'revslider');?> </span>
@@ -4836,7 +4836,7 @@ if(!isset($linksEditSlides)) $linksEditSlides = '';
 	console.log("Slider After Swap");
 	//data.currentslide - <?php _e('Current Slide as jQuery Object', 'revslider');?>
 
-	//data.previousslide - <?php _e('Previous Slide as jQuery Object', 'revslider');?>
+	//data.prevslide - <?php _e('Previous Slide as jQuery Object', 'revslider');?>
 });</textarea>
 <h4 style="margin-top:15px"><?php _e("Last slide starts", 'revslider')?></h4>
 <textarea class="api_area" style=" height:80px;" readonly>
