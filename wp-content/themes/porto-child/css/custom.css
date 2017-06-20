@@ -1,0 +1,8 @@
+#header.custom > .container{
+    background-image: url("../images/header/header_bg.jpg");
+    background-size: auto 400px;
+    height: 400px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
