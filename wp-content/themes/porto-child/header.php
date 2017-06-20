@@ -259,7 +259,7 @@ if ('no' !== $loading_overlay && ('yes' === $loading_overlay || ('yes' !== $load
                                 echo $minicart;
                                 ?>
                             </div>
-                            <a href="#" class="star"><img src="/wp-content/themes/porto-child/images/startop.png" alt=""></a>
+                            <a href="/wishlist" class="star"><img src="/wp-content/themes/porto-child/images/startop.png" alt=""></a>
                             <?php
                             get_template_part('header/header_tooltip');
                             ?>
