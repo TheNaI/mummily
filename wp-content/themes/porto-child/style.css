@@ -49,7 +49,7 @@ ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button:hover{
   background-color: #08c;
   border-color: #08c;
 }
-#main{
+.home #main{
   background-image: url(./images/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
