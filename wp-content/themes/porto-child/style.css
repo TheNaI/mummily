@@ -72,3 +72,6 @@ ul.products.list li.product.show-outimage-q-onimage .add-links-wrap .add-links .
   background-color: #08c;
   color:white;
 }
+ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product:hover .add-links .yith-wcwl-add-to-wishlist > div{
+  left: -2.1em;
+}
