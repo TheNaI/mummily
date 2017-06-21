@@ -65,3 +65,6 @@ ul.products li.product.show-outimage-q-onimage .add_to_cart_button, ul.products 
 ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
   background-color: white;
 }
+ul.products.list li.product.show-outimage-q-onimage .add-links .quickview, ul.products.list li.product-category.show-outimage-q-onimage .add-links .quickview{
+  background-color: white;
+}
