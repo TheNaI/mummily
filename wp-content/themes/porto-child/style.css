@@ -17,7 +17,7 @@ Text Domain: porto-child
 
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
 ul.products li.product .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product-category .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product .add-links .quickview, ul.products li.product-category .add-links .quickview{
-  left: -2.8em;
+  left: -2.1em;
   opacity: 1;
   visibility: visible;
 }
