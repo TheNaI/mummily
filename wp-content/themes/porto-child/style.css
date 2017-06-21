@@ -55,6 +55,7 @@ ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button:hover{
   background-size: cover;
   background-position: center top;
 }
-.yith-wcwl-add-to-wishlist span.ajax-loading{
-  width: 29px !important; 
+
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
+  width: 32px;
 }
