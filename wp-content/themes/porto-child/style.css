@@ -69,5 +69,6 @@ ul.products.list li.product.show-outimage-q-onimage .add-links .quickview, ul.pr
   background-color: white;
 }
 ul.products.list li.product.show-outimage-q-onimage .add-links .quickview:hover, ul.products.list li.product-category.show-outimage-q-onimage .add-links .quickview:hover{
-  background-color: white;
+  background-color: #08c;
+  color:white;
 }
