@@ -78,3 +78,11 @@ ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.pro
 ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before{
   color: red;
 }
+ul.pcols-lg-2 li.product, ul.pcols-lg-2 li.product-category{
+  width: 48%;
+  padding: 0;
+}
+.show-outimage-q-onimage {
+  background-color: #CBE8F8;
+  margin: 0px 5px;
+}
