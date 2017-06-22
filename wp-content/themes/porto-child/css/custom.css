@@ -59,6 +59,7 @@
 }
 #header.custom .nav-menu-custom>ul#menu-mummily > li:nth-child(1) a {
     background-image: url("../images/header/menu1.png");
+    padding-left: 23px;
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li.current-menu-item:nth-child(1) a,
 #header.custom  .nav-menu-custom>ul#menu-mummily > li:nth-child(1) a:hover {
@@ -89,8 +90,9 @@
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li:nth-child(3) a {
     background-image: url("../images/header/menu3.png");
-    line-height: 94px;
+    line-height: 90px;
     font-size: 17px;
+    padding-left: 10px;
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li.current-menu-item:nth-child(3) a,
 #header.custom  .nav-menu-custom>ul#menu-mummily > li:nth-child(3) a:hover {
@@ -120,6 +122,7 @@
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li:nth-child(5) a {
     background-image: url("../images/header/menu5.png");
+    padding-left: 12px;
 
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li.current-menu-item:nth-child(5) a,
@@ -151,7 +154,8 @@
 }
 #header.custom  .nav-menu-custom>ul#menu-mummily > li:nth-child(7) a {
     line-height: 86px;
-    padding-left: 10px;
+    padding-left: 9px;
+    font-size: 17px;
     background-image: url("../images/header/menu7.png");
 
 }
@@ -209,6 +213,18 @@
 
 #header .mobile-toggle{
     color: #a0d8f3;
+}
+
+#header .top-links > li.menu-item:after{
+    background-image: url(../images/header/line.png);
+    width: 2px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: -198px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 @media (max-width: 991px) {
