@@ -206,3 +206,29 @@
 #header .star:hover {
     opacity: 0.5;
 }
+
+#header .mobile-toggle{
+    color: #a0d8f3;
+}
+
+@media (max-width: 991px) {
+    #header.custom .nav-menu-custom{
+        height: inherit;
+        width: auto;
+        top: 19px;
+    }
+    #header.custom > .container{
+        height: inherit;
+    }
+    #header.custom .logo{
+        display: inline-block;
+    }
+    #header.custom{
+        background: #f6fbff;
+        font-size: 30px;
+    }
+    #header.custom > .container{
+        background: #f6fbff;
+        max-height: 88px;
+    }
+}
