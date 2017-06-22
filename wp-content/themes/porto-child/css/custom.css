@@ -213,6 +213,8 @@
 
 #header .mobile-toggle{
     color: #a0d8f3;
+    right: 0;
+    position: relative;
 }
 
 #header .top-links > li.menu-item:after{
@@ -226,7 +228,10 @@
     right: 0;
     margin: auto;
 }
-
+#footer .textwidget h4{
+    font-size: 20px;
+    padding-top: 30px;
+}
 @media (max-width: 991px) {
     #header.custom .nav-menu-custom{
         height: inherit;
@@ -247,4 +252,11 @@
         background: #f6fbff;
         max-height: 88px;
     }
+}
+@media (max-width: 480px){
+    #header #mini-cart {
+         background: inherit;
+        display: none;
+    }
+
 }
