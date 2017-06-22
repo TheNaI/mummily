@@ -17,7 +17,7 @@ Text Domain: porto-child
 
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
 ul.products li.product .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product-category .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product .add-links .quickview, ul.products li.product-category .add-links .quickview{
-  left: -2.1em;
+  left: -2.4em;
   opacity: 1;
   visibility: visible;
 }
@@ -73,7 +73,7 @@ ul.products.list li.product.show-outimage-q-onimage .add-links-wrap .add-links .
   color:white;
 }
 ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product:hover .add-links .yith-wcwl-add-to-wishlist > div{
-  left: -2.1em;
+  left: -2.4em;
 }
 ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before{
   color: red;
