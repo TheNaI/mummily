@@ -78,3 +78,9 @@ ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.pro
 ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before{
   color: red;
 }
+.page-top ul.breadcrumb{
+  font-size: 18px;
+}
+.page-top.page-header-6 ul.breadcrumb > li.home a{
+  width: 18px;
+}
