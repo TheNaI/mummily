@@ -79,8 +79,11 @@ ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-
   color: red;
 }
 .page-top ul.breadcrumb{
-  font-size: 18px;
+  font-size: 20px;
 }
 .page-top.page-header-6 ul.breadcrumb > li.home a{
   width: 18px;
+}
+.page-top ul.breadcrumb > li{
+  vertical-align: sub;
 }
