@@ -260,3 +260,19 @@
     }
 
 }
+
+#mini-cart.minicart-arrow-alt .cart-items{
+    position: absolute;
+    top: 11px;
+    left: 43px;
+    background-color: #0e70a0;
+}
+#mini-cart.minicart-arrow .cart-items, #mini-cart.minicart-arrow-alt .cart-items{
+    width: 24px;
+    height: 24px;
+    font-size: 15px;
+    color: #fff !important;
+    line-height: 25px;
+    border-radius: 20px;
+    font-weight: 100;
+}
