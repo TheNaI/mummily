@@ -90,7 +90,28 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
      */
     do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
-    <div class="product-image">		<?php		$availability = $product->get_availability();		if ( $availability['availability'] != __( 'Out of stock', 'woocommerce' )) {			if ( $porto_settings['add-to-cart-notification'] == '2' ){				?>				<div class="loader-container"><div class="loader"><i class="porto-ajax-loader"></i></div></div>				<div class="after-loading-success-message">					<div class="background-overlay"></div>					<div class="loader success-message-container">						<div class="msg-box">							<div class="msg"><?php _e("You've just added this product to the cart","porto"); ?>:<p class="product-name text-color-primary"><?php echo $product->get_title(); ?></p></div>							<?php the_post_thumbnail(); ?>						</div>						<button class="button btn-primay viewcart" data-link="<?php echo get_permalink( wc_get_page_id( 'cart' ) ); ?>"><?php _e('Go to cart page','porto');?></button>						<button class="button btn-primay continue_shopping"><?php _e('Continue','porto');?></button>					</div>				</div>				<?php			}		}		?>
+    <div class="product-image">
+      <?php		$availability = $product->get_availability();
+              if ( $availability['availability'] != __( 'Out of stock', 'woocommerce' )) {
+                if ( $porto_settings['add-to-cart-notification'] == '2' ){				?>
+                    <div class="loader-container">
+                      <div class="loader"><i class="porto-ajax-loader"></i></div>
+                    </div>
+            				<div class="after-loading-success-message">
+                      <div class="background-overlay"></div>
+                      <div class="loader success-message-container">
+                        <div class="msg-box">
+                          <div class="msg">
+                            <?php _e("You've just added this product to the cart","porto"); ?>:
+                            <p class="product-name text-color-primary"><?php echo $product->get_title(); ?></p>
+                          </div>
+                          <?php the_post_thumbnail(); ?>
+                        </div>
+                        <button class="button btn-primay viewcart" data-link="<?php echo get_permalink( wc_get_page_id( 'cart' ) ); ?>"><?php _e('Go to cart page','porto');?></button>
+                        <button class="button btn-primay continue_shopping"><?php _e('Continue','porto');?></button>
+                      </div>
+                    </div>
+              <?php	}		}		?>
         <a <?php echo $more_target ?> href="<?php echo $more_link ?>">
             <?php
                 /**
@@ -120,6 +141,7 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
          */
         do_action( 'woocommerce_shop_loop_item_title' );
         ?>
+
     <?php endif; ?>
 
     <?php
@@ -141,4 +163,5 @@ if (isset($porto_settings['catalog-enable']) && $porto_settings['catalog-enable'
         do_action( 'woocommerce_after_shop_loop_item' );
     ?>
 <?php  if (isset($woocommerce_loop['addlinks_pos']) && $woocommerce_loop['addlinks_pos'] == 'outimage_q_onimage_alt') echo '</div>'; ?>
+
 </li>
