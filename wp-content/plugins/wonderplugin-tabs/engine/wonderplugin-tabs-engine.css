@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+
+.wonderplugintabs * {
+	box-sizing: border-box;
+}
+
+.wonderplugin-engine {
+	display: none;
+}
+@media only screen and (max-width: 1170px) {
+    .wpb_wrapper #wonderplugintabs-1 > .wonderplugintabs-header-wrap{
+	width:100%!important;
+    }
+}

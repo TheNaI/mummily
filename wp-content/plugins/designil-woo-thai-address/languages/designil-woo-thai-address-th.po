@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Desingil - Woo Thai Address 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-03 20:24+0700\n"
+"PO-Revision-Date: 2017-05-08 14:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: Watcharapon Charoenwongjongdee <aum_kub@hotmail.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../EDD_SL_Plugin_Updater.php:197
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: ../EDD_SL_Plugin_Updater.php:205
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s or "
+"%5$supdate now%6$s."
+msgstr ""
+
+#: ../EDD_SL_Plugin_Updater.php:359
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../EDD_SL_Plugin_Updater.php:359
+msgid "Error"
+msgstr "เกิด Error, โปรดลองอีกครั้ง"
+
+#: ../designil-woo-thai-address.php:90
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: ../designil-woo-thai-address.php:146
+msgid "Designil - Woo Thai Address"
+msgstr ""
+
+#: ../designil-woo-thai-address.php:153
+msgid "License Key"
+msgstr ""
+
+#: ../designil-woo-thai-address.php:166 ../designil-woo-thai-address.php:175
+msgid "Activate License"
+msgstr ""
+
+#: ../designil-woo-thai-address.php:170
+msgid "active"
+msgstr ""
+
+#: ../designil-woo-thai-address.php:172
+msgid "Deactivate License"
+msgstr ""
+
+#: ../designil-woo-thai-address.php:182
+msgid "Default WooCommerce Field"
+msgstr "ใช้รูปแบบ Field ดั้งเดิม"
+
+#: ../designil-woo-thai-address.php:257 ../designil-woo-thai-address.php:304
+#: ../designil-woo-thai-address.php:366
+msgid "An error occurred, please try again."
+msgstr "เกิด Error, โปรดลองอีกครั้ง"
+
+#: ../designil-woo-thai-address.php:271
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "License ของคุณจะหมดอายุใน %s"
+
+#: ../designil-woo-thai-address.php:278
+msgid "Your license key has been disabled."
+msgstr "License ของคุณไม่สามารถใช้งานได้"
+
+#: ../designil-woo-thai-address.php:283
+msgid "Invalid license."
+msgstr "License ของคุณไม่ถูกต้อง"
+
+#: ../designil-woo-thai-address.php:289
+msgid "Your license is not active for this URL."
+msgstr "License ของคุณไม่สามารถ Activate ได้กับ URL นี"
+
+#: ../designil-woo-thai-address.php:294
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: ../designil-woo-thai-address.php:299
+msgid "Your license key has reached its activation limit."
+msgstr "License ของคุณเต็มแล้ว ไม่สามารถ Activate ได้"
+
+#: ../designil-woo-thai-address.php:461
+#, php-format
+msgid ""
+"Please <a href=\"%s\">Activate License</a> Designil - Woo Thai Adress for "
+"keeping update and your own safety"
+msgstr ""
+"กรุณา <a href=%s>Activate License</a> Designil - Woo Thai Address เพื่ออัพเดท "
+"และเปิดใช้งานฟังก์ชั่น"
+
+#: ../public/class-designil-woo-thai-address-public.php:163
+msgid "Apartment, suite, unit etc. (optional)"
+msgstr "ที่อยู่เพิ่มเติม ( ไม่บังคับ )"
+
+#: ../public/class-designil-woo-thai-address-public.php:169
+msgid "District"
+msgstr "เขต / อำเภอ"
+
+#: ../public/class-designil-woo-thai-address-public.php:170
+msgid "Street Address"
+msgstr "บ้านเลขที่ ถนน ซอย"
+
+#: ../public/class-designil-woo-thai-address-public.php:174
+msgid "Sub District"
+msgstr "แขวง / ตำบล"
+
+#: ../public/class-designil-woo-thai-address-public.php:196
+#: ../public/class-designil-woo-thai-address-public.php:229
+msgid "Company name"
+msgstr "ชื่อบริษัท"
+
+#: ../public/class-designil-woo-thai-address-public.php:200
+#: ../public/class-designil-woo-thai-address-public.php:220
+msgid "Email Address"
+msgstr "อีเมล"
+
+#: ../public/class-designil-woo-thai-address-public.php:201
+msgid "Order notes"
+msgstr "ข้อความถึงผู้ขาย"
+
+#: ../public/class-designil-woo-thai-address-public.php:202
+msgid " "
+msgstr ""
+
+#: ../public/class-designil-woo-thai-address-public.php:242
+msgid "Billing details"
+msgstr "ที่อยู่ในใบเสร็จ"
+
+#: ../public/class-designil-woo-thai-address-public.php:245
+msgid "Additional information"
+msgstr "รายละเอียดเพิ่มเติม"

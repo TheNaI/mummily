@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.form-table.wta hr {
+  display: block;
+}
+
+.form-field._billing_sub_city_field, 
+.form-field._shipping_sub_city_field {
+  float: right !important;
+  clear: right !important;
+}
+
+.debug--link {
+  display: block;
+  width: 100px;
+  margin-bottom: 1em;
+}
+
+.wta--debug {
+  overflow: auto; 
+  min-height: 200px;
+  min-width: 500px;
+}

@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Seed Confirm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-18 15:24+0000\n"
+"PO-Revision-Date: 2016-12-18 15:37+0000\n"
+"Last-Translator: root <info@mennstudio.com>\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: seed-confirm-pro.php:972
+msgid ""
+"Change order status from on-hold to cancelled automatically after x minutes."
+msgstr ""
+"เปลี่ยนสถานะการสั่งซื้อ จากรอตรวจสอบการชำระเงินเป็นยกเลิก "
+"หากนานเกินเวลาที่กำหนด"
+
+#: seed-confirm-pro.php:985
+msgid "Pending time"
+msgstr "เวลาที่รอ"
+
+#: seed-confirm-pro.php:103 seed-confirm-pro.php:1377 seed-confirm-pro.php:1382
+#: seed-confirm-pro.php:1387
+msgid "Confirm Payment"
+msgstr "แจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:116
+msgid "Thank you for your payment. We will process your order shortly."
+msgstr ""
+"ได้รับการแจ้งโอนเงินเรียบร้อยแล้ว ทางร้านจะดำเนินการจัดส่งสินค้าโดยเร็วที่สุด"
+
+#: seed-confirm-pro.php:217
+msgid "Our Bank Details"
+msgstr "ข้อมูลบัญชีธนาคาร"
+
+#: seed-confirm-pro.php:218
+msgid "Make your payment directly into our bank account."
+msgstr "ชำระเงินโดยการโอนเงินผ่านธนาคารดังนี้"
+
+#: seed-confirm-pro.php:224 seed-confirm-pro.php:927
+msgid "Bank Name"
+msgstr "ธนาคาร"
+
+#: seed-confirm-pro.php:225
+msgid "Sort Code"
+msgstr "สาขา"
+
+#: seed-confirm-pro.php:226 seed-confirm-pro.php:926
+msgid "Account Number"
+msgstr "เลขที่บัญชี"
+
+#: seed-confirm-pro.php:227 seed-confirm-pro.php:925
+msgid "Account Name"
+msgstr "ชื่อบัญชี"
+
+#: seed-confirm-pro.php:331 seed-confirm-pro.php:578 seed-confirm-pro.php:853
+msgid "Name"
+msgstr "ชื่อ"
+
+#: seed-confirm-pro.php:335 seed-confirm-pro.php:583 seed-confirm-pro.php:855
+msgid "Contact"
+msgstr "เบอร์ติดต่อ"
+
+#: seed-confirm-pro.php:344 seed-confirm-pro.php:588 seed-confirm-pro.php:888
+msgid "Address"
+msgstr "ที่อยู่"
+
+#: seed-confirm-pro.php:351 seed-confirm-pro.php:857
+msgid "Order"
+msgstr "รายการสั่งซื้อ"
+
+#: seed-confirm-pro.php:379
+msgid "[Noted] "
+msgstr "[แจ้งแล้ว] "
+
+#: seed-confirm-pro.php:380
+msgid "No. "
+msgstr "เลขที่: "
+
+#: seed-confirm-pro.php:380
+msgid " - Amount: "
+msgstr " - จำนวนเงิน: "
+
+#: seed-confirm-pro.php:392 seed-confirm-pro.php:607 seed-confirm-pro.php:859
+msgid "Amount"
+msgstr "ยอดโอน"
+
+#: seed-confirm-pro.php:403 seed-confirm-pro.php:861
+msgid "Bank Account"
+msgstr "ธนาคารที่โอน"
+
+#: seed-confirm-pro.php:421 seed-confirm-pro.php:863
+msgid "Transfer Date"
+msgstr "วันที่โอน"
+
+#: seed-confirm-pro.php:425
+msgid "Time"
+msgstr "เวลา"
+
+#: seed-confirm-pro.php:533 seed-confirm-pro.php:865
+msgid "Payment Slip"
+msgstr "หลักฐานการโอน"
+
+#: seed-confirm-pro.php:541 seed-confirm-pro.php:628 seed-confirm-pro.php:890
+msgid "Remark"
+msgstr "หมายเหตุ"
+
+#: seed-confirm-pro.php:547
+msgid "Submit Payment Detail"
+msgstr "แจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:593
+msgid "Order no"
+msgstr "คำสั่งซื้อเลขที่"
+
+#: seed-confirm-pro.php:600
+msgid "Bank name"
+msgstr "ธนาคาร"
+
+#: seed-confirm-pro.php:602
+msgid "Account no"
+msgstr "เลขที่บัญชี"
+
+#: seed-confirm-pro.php:612
+msgid "Date"
+msgstr "วันที่"
+
+#: seed-confirm-pro.php:637
+msgid "Order no. "
+msgstr "คำสั่งซื้อเลขที่ "
+
+#: seed-confirm-pro.php:637
+msgid " by "
+msgstr " โดย "
+
+#: seed-confirm-pro.php:741 seed-confirm-pro.php:743
+msgid "Confirm Logs"
+msgstr "แจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:766 seed-confirm-pro.php:767
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: seed-confirm-pro.php:794
+msgid "Seed Confirm Settings"
+msgstr "ตั้งค่าการแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:796 seed-confirm-pro.php:914
+msgid "Bank Accounts"
+msgstr "บัญชีธนาคาร"
+
+#: seed-confirm-pro.php:799 seed-confirm-pro.php:971
+msgid "Auto Cancel Unpaid Orders"
+msgstr "ยกเลิกรายการค้างชำระอัตโนมัติ"
+
+#: seed-confirm-pro.php:801 seed-confirm-pro.php:1003
+msgid "License"
+msgstr "ใบอนุญาต"
+
+#: seed-confirm-pro.php:805
+msgid "Your settings have been saved."
+msgstr "บันทึกการตั้งค่าของคุณเรียบร้อย"
+
+#: seed-confirm-pro.php:812
+msgid "Confirm Payment Page"
+msgstr "หน้าแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:816
+msgid "Page"
+msgstr "หน้า"
+
+#: seed-confirm-pro.php:830
+msgid "Notice Message"
+msgstr "ข้อความยืนยัน"
+
+#: seed-confirm-pro.php:831
+msgid "Display after received payment information."
+msgstr "แสดงหลังจากได้รับข้อมูลแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:835
+msgid "Message"
+msgstr "ข้อความ"
+
+#: seed-confirm-pro.php:839
+msgid "Background Color"
+msgstr "สีพื้นหลัง"
+
+#: seed-confirm-pro.php:845
+msgid "Confirm Payment Form"
+msgstr "แบบฟอร์มแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:846
+msgid "Display all fields, each field can be set to be required."
+msgstr ""
+"แสดงช่องข้อมูลทั้งหมดในแบบฟอร์ม "
+"สามารถเลือกบางข้อมูลให้เป็นข้อมูลที่บังคับกรอกได้"
+
+#: seed-confirm-pro.php:850
+msgid "Required fields"
+msgstr "ข้อมูลที่บังคับกรอก"
+
+#: seed-confirm-pro.php:871
+msgid "Optional fields"
+msgstr "ข้อมูลอื่นๆ"
+
+#: seed-confirm-pro.php:872
+msgid "Enable or disable optional fields on payment confirmation form"
+msgstr "แสดงหรือปิดการแสดงข้อมูลอื่นๆ ในแบบฟอร์มแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:876 seed-confirm-pro.php:977
+msgid "Enable?"
+msgstr "เปิดใช้งาน?"
+
+#: seed-confirm-pro.php:885
+msgid " <i>(Disable when WooCommerce is activated.)</i>"
+msgstr " <i>(ไม่แสดงกรณีใช้ร่วมกับ WooCommerce)</i>"
+
+#: seed-confirm-pro.php:897
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#: seed-confirm-pro.php:898
+msgid "Display in confirmation logs."
+msgstr "แสดงในข้อมูลแจ้งชำระเงิน"
+
+#: seed-confirm-pro.php:902
+msgid "Currency symbol"
+msgstr "สัญลักษณ์หรือหน่วยเงิน"
+
+#: seed-confirm-pro.php:915
+msgid "Direct bank/wire transfer account information."
+msgstr "ข้อมูลบัญชีธนาคารสำหรับการชำระเงิน"
+
+#: seed-confirm-pro.php:919
+msgid "Account Details"
+msgstr "รายละเอียดบัญชี"
+
+#: seed-confirm-pro.php:928
+msgid "Branch"
+msgstr "สาขา"
+
+#: seed-confirm-pro.php:929
+msgid "IBAN"
+msgstr "IBAN"
+
+#: seed-confirm-pro.php:930
+msgid "BIC / Swift"
+msgstr "BIC / Swift"
+
+#: seed-confirm-pro.php:956
+msgid "+ Add Account"
+msgstr "+ เพิ่มบัญชี"
+
+#: seed-confirm-pro.php:956
+msgid "Remove selected account(s)"
+msgstr "ลบบัญชีที่เลือก"
+
+#: seed-confirm-pro.php:989
+msgid "Minutes (60 minutes = 1 hour, 1440 minutes = 1 day)"
+msgstr "นาที (60 นาที = 1 ชั่วโมง, 1440 นาที = 1 วัน)"
+
+#: seed-confirm-pro.php:1008
+msgid "License Key"
+msgstr "รหัสใบอนุญาต"
+
+#: seed-confirm-pro.php:1012
+msgid "Enter your license key"
+msgstr "กรอกรหัสที่ได้รับจากเว็บไซต์"
+
+#: seed-confirm-pro.php:1018
+msgid "Activate License"
+msgstr "ลงทะเบียนรหัสใบอนุญาต"
+
+#: seed-confirm-pro.php:1022
+msgid "active"
+msgstr "ใช้งาน"
+
+#: seed-confirm-pro.php:1178 seed-confirm-pro.php:1225
+#: seed-confirm-pro.php:1286
+msgid "An error occurred, please try again."
+msgstr "มีความผิดพลาดเกิดขึ้น กรุณาลองอีกครั้ง"
+
+#: seed-confirm-pro.php:1192
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "รหัสใบอนุญาตของคุณหมดอายุวันที่ %s"
+
+#: seed-confirm-pro.php:1199
+msgid "Your license key has been disabled."
+msgstr "รหัสใบอนุญาตของคุณไม่ได้ลงทะเบียน"
+
+#: seed-confirm-pro.php:1204
+msgid "Invalid license."
+msgstr "ไม่มีรหัสใบอนุญาตนี้ในระบบ"
+
+#: seed-confirm-pro.php:1210
+msgid "Your license is not active for this URL."
+msgstr "รหัสใบอนุญาตของคุณไม่ได้เปิดใช้งานใน url นี้"
+
+#: seed-confirm-pro.php:1215
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "ไม่พบรหัสใบอนุญาตสำหรับ %s"
+
+#: seed-confirm-pro.php:1220
+msgid "Your license key has reached its activation limit."
+msgstr "รหัสใบอนุญาตนี้ลงทะเบียนครบจำนวนที่กำหนดแล้ว"
+
+#. Name of the plugin
+msgid "Seed Confirm Pro"
+msgstr "Seed Confirm Pro"
+
+#. Description of the plugin
+msgid ""
+"Creates confirmation form for bank transfer payment. If using with "
+"WooCommerce, this plugin will get bank information from WooCommerce."
+msgstr ""
+"สร้างแบบฟอร์มแจ้งชำระเงินสำหรับการโอนเงินผ่านธนาคาร หากเปิดใช้พร้อมกับ "
+"WooCommerce ระบบจะใช้ข้อมูลธนาคารจาก WooCommerce แทน"
+
+#. URI of the plugin
+msgid "https://www.seedthemes.com/plugin/seed-confirm-pro"
+msgstr "https://th.seedthemes.com/item/seed-confirm-pro/"
+
+#. Author of the plugin
+msgid "SeedThemes"
+msgstr ""
+"SeedThemes\n"
+
+#. Author URI of the plugin
+msgid "https://www.seedthemes.com"
+msgstr ""
+"https://www.seedthemes.com\n"
