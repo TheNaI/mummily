@@ -33,3 +33,9 @@ function quantity_inputs_for_woocommerce_loop_add_to_cart_link( $html, $product 
 	return $html;
 }
 */
+
+function action_woocommerce_before_main_content() {
+  echo '<div style="margin-bottom:40px;">'.do_shortcode( '[rev_slider alias="bannershop"]' ).'</div>';
+};
+
+add_action( 'woocommerce_before_main_content', 'action_woocommerce_before_main_content', 10, 2 );
