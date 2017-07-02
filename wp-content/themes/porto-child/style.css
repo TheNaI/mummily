@@ -87,3 +87,14 @@ ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-
 .page-top ul.breadcrumb > li{
   vertical-align: sub;
 }
+h3#ship-to-different-address{
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 20px;
+}
+.form-row label.checkbox{
+  margin-left: 20px;
+}
+.form-row label {
+    display: inline-block;
+}
