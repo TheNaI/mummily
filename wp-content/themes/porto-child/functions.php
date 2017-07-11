@@ -39,3 +39,11 @@ function action_woocommerce_before_main_content() {
 };
 
 add_action( 'woocommerce_before_main_content', 'action_woocommerce_before_main_content', 10, 2 );
+
+function filter_woocommerce_shipping_package_name( $sprintf, $i, $package ) {
+    $sprintf = 'วิธีจัดส่ง';    
+    return $sprintf;
+};
+
+// add the filter
+add_filter( 'woocommerce_shipping_package_name', 'filter_woocommerce_shipping_package_name', 10, 3 );

@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MIMO Woocommerce Order Tracking\n"
+"POT-Creation-Date: 2017-03-20 14:38+0700\n"
+"PO-Revision-Date: 2017-03-20 14:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: Surakrai Nookong <surakraisam@gmail.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mimo-woocommerce-order-tracking.php:197
+#: mimo-woocommerce-order-tracking.php:552
+#: mimo-woocommerce-order-tracking.php:556
+msgid "Provider name"
+msgstr "ชื่อผู้ให้บริการ"
+
+#: mimo-woocommerce-order-tracking.php:198
+#: mimo-woocommerce-order-tracking.php:561
+msgid "Tracking URL"
+msgstr "ลิงค์ติดตาม"
+
+#: mimo-woocommerce-order-tracking.php:199
+#: mimo-woocommerce-order-tracking.php:567
+msgid "Add a tracking number to the URL"
+msgstr "เพิ่มหมายเลขเพัสดุในลิงค์"
+
+#: mimo-woocommerce-order-tracking.php:200
+#: mimo-woocommerce-order-tracking.php:574
+msgid "Delete"
+msgstr "ลบ"
+
+#: mimo-woocommerce-order-tracking.php:201
+#: mimo-woocommerce-order-tracking.php:575
+msgid "Close"
+msgstr "ปิด"
+
+#: mimo-woocommerce-order-tracking.php:202
+#: mimo-woocommerce-order-tracking.php:578
+msgid "Update"
+msgstr "อัพเดท"
+
+#: mimo-woocommerce-order-tracking.php:232
+msgid "Please select a provider"
+msgstr "กรุณาเลือกผู้ให้บริการ"
+
+#: mimo-woocommerce-order-tracking.php:236
+msgid "Please enter a tracking number"
+msgstr "กรุณากรอกหมายเพัสดุ"
+
+#: mimo-woocommerce-order-tracking.php:240
+msgid "Please enter a date"
+msgstr "กรุณากรอกวันที่จัดส่ง"
+
+#: mimo-woocommerce-order-tracking.php:347
+msgid ""
+"MIMO Woocommerce Order Tracking is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"MIMO Woocommerce Order Tracking เปิดใช้แล้วแต่ไม่สามรถทำงานได้เต็มประสิทธิภาพ "
+"ต้องลงปลั๊กอิน WooCommerce"
+
+#: mimo-woocommerce-order-tracking.php:389
+msgid "Shipment Tracking"
+msgstr "ติดตามการจัดส่ง"
+
+#: mimo-woocommerce-order-tracking.php:407
+#: mimo-woocommerce-order-tracking.php:601
+msgid "Email description"
+msgstr "คำอธิบายในอีเมล์"
+
+#: mimo-woocommerce-order-tracking.php:425
+msgid "Order Tracking"
+msgstr "ติดตามการจัดส่ง"
+
+#: mimo-woocommerce-order-tracking.php:466
+msgid "Track"
+msgstr "ติดตาม"
+
+#: mimo-woocommerce-order-tracking.php:489
+#: mimo-woocommerce-order-tracking.php:544
+#: mimo-woocommerce-order-tracking.php:629
+msgid "Provider"
+msgstr "ผู้ให้บริการ"
+
+#: mimo-woocommerce-order-tracking.php:491
+msgid "Select a provider"
+msgstr "เลือกผู้ให้บริการ"
+
+#: mimo-woocommerce-order-tracking.php:501
+#: mimo-woocommerce-order-tracking.php:630
+msgid "Tracking number"
+msgstr "หมายเลขพัสดุ"
+
+#: mimo-woocommerce-order-tracking.php:506
+#: mimo-woocommerce-order-tracking.php:631
+msgid "Date shipped"
+msgstr "วันที่จัดส่ง"
+
+#: mimo-woocommerce-order-tracking.php:518
+msgid "Save"
+msgstr "บันทึก"
+
+#: mimo-woocommerce-order-tracking.php:520
+msgid "Save and Send"
+msgstr "บันทึกและส่ง"
+
+#: mimo-woocommerce-order-tracking.php:540
+msgid "Order Tracking Settings"
+msgstr "ตั้งค่าการติดตามจัดส่งสินค้า"
+
+#: mimo-woocommerce-order-tracking.php:592
+msgid "Add provider"
+msgstr "เพิ่มผู้ให้บริการ"
+
+#: mimo-woocommerce-order-tracking.php:624
+msgid "Shipping information"
+msgstr "ข้อมูลการจัดส่ง"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "View"
+#~ msgstr "ดู"
+
+#~ msgid "Title"
+#~ msgstr "หัวข้อ"
+
+#~ msgid "Date"
+#~ msgstr "วันที่"
+
+#~ msgid "Provider :"
+#~ msgstr "ผู้ให้บริการ"
+
+#~ msgid "Tracking number :"
+#~ msgstr "หมายเลขพัสดุ"
+
+#~ msgid "Date shipped :"
+#~ msgstr "วันที่จัดส่ง"

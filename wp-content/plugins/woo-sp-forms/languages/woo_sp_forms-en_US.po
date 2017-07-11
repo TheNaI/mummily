@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Popup Signup/Login Forms v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-06-30 11:01:18+0000\n"
+"Last-Translator: admin <spoot@bk.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: templates/login-form.php:19
+#@ woo-sp-forms
+msgid "Username or email address"
+msgstr ""
+
+#: templates/login-form.php:23
+#: templates/registration-form.php:41
+#@ woo-sp-forms
+msgid "Password"
+msgstr ""
+
+#: templates/login-form.php:31
+#@ woo-sp-forms
+msgid "Login"
+msgstr ""
+
+#: templates/login-form.php:38
+#: templates/registration-form.php:62
+#@ woo-sp-forms
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/registration-form.php:27
+#@ woo-sp-forms
+msgid "Username"
+msgstr ""
+
+#: templates/registration-form.php:34
+#@ woo-sp-forms
+msgid "Email address"
+msgstr ""
+
+#: templates/registration-form.php:48
+#@ woo-sp-forms
+msgid "Anti-spam"
+msgstr ""
+
+#: templates/registration-form.php:55
+#@ woo-sp-forms
+msgid "Register"
+msgstr ""
+
+#: woo-sp-forms-admin.php:41
+#@ woo_sp_forms
+msgid "Settings is saved"
+msgstr "Settings is saved"
+
+#: woo-sp-forms-admin.php:50
+#@ woo_sp_forms
+msgid "Redirect After Login"
+msgstr "Redirect After Login"
+
+#: woo-sp-forms-admin.php:59
+#: woo-sp-forms-admin.php:85
+#@ woo_sp_forms
+msgid "Select page"
+msgstr "Select page"
+
+#: woo-sp-forms-admin.php:76
+#@ woo_sp_forms
+msgid "Redirect After Signup"
+msgstr "Redirect After Signup"
+
+#: woo-sp-forms-admin.php:103
+#@ woo_sp_forms
+msgid "Menu"
+msgstr "Menu"
+
+#: woo-sp-forms-admin.php:136
+#@ woo_sp_forms
+msgid "Login Title"
+msgstr "Login Title"
+
+#: woo-sp-forms-admin.php:147
+#@ woo_sp_forms
+msgid "Logout Title"
+msgstr "Logout Title"
+
+#: woo-sp-forms-admin.php:159
+#@ woo_sp_forms
+msgid "Signup Title"
+msgstr "Signup Title"
+
+#: woo-sp-forms-admin.php:171
+#@ woo_sp_forms
+msgid "Simple Registration"
+msgstr "Simple Registration"
+
+#: woo-sp-forms-admin.php:184
+#@ woo_sp_forms
+msgid "Main Color"
+msgstr "Main Color"
+
+#: woo-sp-forms-admin.php:195
+#@ woo_sp_forms
+msgid "Text Color"
+msgstr "Text Color"
+
+#: woo-sp-forms-admin.php:206
+#@ woo_sp_forms
+msgid "Background Color"
+msgstr "Background Color"
+
+#: woo-sp-forms-admin.php:215
+#@ woo_sp_forms
+msgid "Save"
+msgstr "Save"
+
+#. translators: plugin header field 'Name'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "WooCommerce Popup Signup/Login Forms"
+msgstr "WooCommerce Popup Signup/Login Forms"
+
+#. translators: plugin header field 'PluginURI'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "http://web-cude.com/woo-forms/"
+msgstr "http://web-cude.com/woo-forms/"
+
+#. translators: plugin header field 'Description'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "With this addon for WooCommerce, you can easily create a Signup/Login process for your shop."
+msgstr "With this addon for WooCommerce, you can easily create a Signup/Login process for your shop."
+
+#. translators: plugin header field 'Author'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "Alex Kuimov"
+msgstr "Alex Kuimov"
+
+#. translators: plugin header field 'AuthorURI'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "http://web-cude.com"
+msgstr "http://web-cude.com"
+
+#. translators: plugin header field 'Version'
+#: woo-sp-forms.php:0
+#@ woo_sp_forms
+msgid "1.0"
+msgstr "1.0"
+
