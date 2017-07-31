@@ -1,100 +1,103 @@
-/*
-Theme Name: Porto Child
-Theme URI: http://newsmartwave.net/wordpress/porto
-Author: SW-THEMES
-Author URI: http://newsmartwave.net/
-Description: Porto Responsive Wordpress + eCommerce Theme.
-Version: 1.1
-Template: porto
-License: Commercial
-License URI: http://themeforest.net/licenses/regular_extended
-Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
-Text Domain: porto-child
-
-*/
-
-@import url("../porto/style.css");
-
-/*************** ADD YOUR CUSTOM CSS HERE  ***************/
-ul.products li.product .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product-category .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product .add-links .quickview, ul.products li.product-category .add-links .quickview{
-  left: -2.4em;
-  opacity: 1;
-  visibility: visible;
-}
-
-.add_to_cart_button:hover, .add_to_cart_read_more:hover, .add_to_cart_button:focus, .add_to_cart_read_more:focus, ul.products li.product:hover .add_to_cart_button, ul.products li.product:hover .add_to_cart_read_more, ul.list li.product .add_to_cart_button, ul.list li.product .add_to_cart_read_more {
-  background: transparent;
-  border-color: #d8d8d6;
-  color: #6f6e6b !important;
-}
-ul.products li.product.show-outimage-q-onimage .add_to_cart_button:hover{
-  color:white !important;
-  background-color: #08c;
-  border-color: #08c;
-}
-ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a:hover:before{
-  color:white;
-}
-ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a:hover{
-  color:white;
-  background-color: #08c;
-}
-ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product.show-outimage-q-onimage .add_to_cart_read_more, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_read_more{
-  background-color: white;
-  border-color: #d8d8d6;
-  color: #6f6e6b !important;
-}
-ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button:hover{
-  color:white !important;
-  background-color: #08c;
-  border-color: #08c;
-}
-.home #main{
-  background-image: url(./images/body_bg_2.jpg);
-  background-repeat: repeat-x;
-  background-color: #FFF;
-  background-position: center top;
-}
-
-ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
-  width: 32px;
-}
-ul.products li.product.show-outimage-q-onimage .add_to_cart_button, ul.products li.product-category.show-outimage-q-onimage .add_to_cart_button, ul.products li.product.show-outimage-q-onimage .add_to_cart_read_more, ul.products li.product-category.show-outimage-q-onimage .add_to_cart_read_more{
-  background-color: white;
-}
-ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
-  background-color: white;
-}
-ul.products.list li.product.show-outimage-q-onimage .add-links .quickview, ul.products.list li.product-category.show-outimage-q-onimage .add-links .quickview{
-  background-color: white;
-}
-ul.products.list li.product.show-outimage-q-onimage .add-links-wrap .add-links .quickview:hover, ul.products.list li.product-category.show-outimage-q-onimage .add-links-wrap .add-links .quickview:hover{
-  background-color: #08c;
-  color:white;
-}
-ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product:hover .add-links .yith-wcwl-add-to-wishlist > div{
-  left: -2.4em;
-}
-ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before{
-  color: red;
-}
-.page-top ul.breadcrumb{
-  font-size: 22px;
-}
-.page-top.page-header-6 ul.breadcrumb > li.home a{
-  width: 22px;
-}
-.page-top ul.breadcrumb > li{
-  vertical-align: sub;
-}
-h3#ship-to-different-address{
-  font-size: 18px;
-  margin-left: 20px;
-  line-height: 20px;
-}
-.form-row label.checkbox{
-  margin-left: 20px;
-}
-.form-row label {
-    display: inline-block;
-}
+/*
+Theme Name: Porto Child
+Theme URI: http://newsmartwave.net/wordpress/porto
+Author: SW-THEMES
+Author URI: http://newsmartwave.net/
+Description: Porto Responsive Wordpress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: porto-child
+
+*/
+
+@import url("../porto/style.css");
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+ul.products li.product .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product-category .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product .add-links .quickview, ul.products li.product-category .add-links .quickview{
+  left: -2.4em;
+  opacity: 1;
+  visibility: visible;
+}
+
+.add_to_cart_button:hover, .add_to_cart_read_more:hover, .add_to_cart_button:focus, .add_to_cart_read_more:focus, ul.products li.product:hover .add_to_cart_button, ul.products li.product:hover .add_to_cart_read_more, ul.list li.product .add_to_cart_button, ul.list li.product .add_to_cart_read_more {
+  background: transparent;
+  border-color: #d8d8d6;
+  color: #6f6e6b !important;
+}
+ul.products li.product.show-outimage-q-onimage .add_to_cart_button:hover{
+  color:white !important;
+  background-color: #08c;
+  border-color: #08c;
+}
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a:hover:before{
+  color:white;
+}
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a:hover{
+  color:white;
+  background-color: #08c;
+}
+ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_button, ul.products.list li.product.show-outimage-q-onimage .add_to_cart_read_more, ul.products.list li.product-category.show-outimage-q-onimage .add_to_cart_read_more{
+  background-color: white;
+  border-color: #d8d8d6;
+  color: #6f6e6b !important;
+}
+ul.products.list li.product.show-outimage-q-onimage .add_to_cart_button:hover{
+  color:white !important;
+  background-color: #08c;
+  border-color: #08c;
+}
+.home #main{
+  background-image: url(./images/body_bg_2.jpg);
+  background-repeat: repeat-x;
+  background-color: #FFF;
+  background-position: center top;
+}
+
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
+  width: 32px;
+}
+ul.products li.product.show-outimage-q-onimage .add_to_cart_button, ul.products li.product-category.show-outimage-q-onimage .add_to_cart_button, ul.products li.product.show-outimage-q-onimage .add_to_cart_read_more, ul.products li.product-category.show-outimage-q-onimage .add_to_cart_read_more{
+  background-color: white;
+}
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist a{
+  background-color: white;
+}
+ul.products.list li.product.show-outimage-q-onimage .add-links .quickview, ul.products.list li.product-category.show-outimage-q-onimage .add-links .quickview{
+  background-color: white;
+}
+ul.products.list li.product.show-outimage-q-onimage .add-links-wrap .add-links .quickview:hover, ul.products.list li.product-category.show-outimage-q-onimage .add-links-wrap .add-links .quickview:hover{
+  background-color: #08c;
+  color:white;
+}
+ul.products li.product.hover .add-links .yith-wcwl-add-to-wishlist > div, ul.products li.product:hover .add-links .yith-wcwl-add-to-wishlist > div{
+  left: -2.4em;
+}
+ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product-category.show-outimage-q-onimage .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before{
+  color: red;
+}
+.page-top ul.breadcrumb{
+  font-size: 22px;
+}
+.page-top.page-header-6 ul.breadcrumb > li.home a{
+  width: 22px;
+}
+.page-top ul.breadcrumb > li{
+  vertical-align: sub;
+}
+h3#ship-to-different-address{
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 20px;
+}
+.form-row label.checkbox{
+  margin-left: 20px;
+}
+.form-row label {
+    display: inline-block;
+}
+.seed-confirm-form{
+    max-width: 800px;
+}
