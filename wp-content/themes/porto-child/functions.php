@@ -48,7 +48,19 @@ function filter_woocommerce_shipping_package_name( $sprintf, $i, $package ) {
 // add the filter
 add_filter( 'woocommerce_shipping_package_name', 'filter_woocommerce_shipping_package_name', 10, 3 );// define the woocommerce_login_form_end callback
 function action_woocommerce_login_form_end() {
-  echo '<div class="kornchai-css new-fb-btn new-fb-4 new-fb-default-anim"><div class="new-fb-4-1"><div class="new-fb-4-1-1"><a style="color: #ffffff;" href="http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=http://mummily-porto.beargu.com" onclick="window.location = http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=%27+window.location.href; return false;">LOGIN WITH FACEBOOK</a></div></div></div>';
+  echo '<div class="new-fb-btn-custom new-fb-btn new-fb-4 new-fb-default-anim" style="margin-top:0"><div class="new-fb-4-1"><div class="new-fb-4-1-1"><a style="color: #ffffff!important; text-decoration:none" href="http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=http://mummily-porto.beargu.com" onclick="window.location = http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=%27+window.location.href; return false;">LOGIN WITH FACEBOOK</a></div></div></div>';
 };
 
 add_action( 'woocommerce_login_form_end', 'action_woocommerce_login_form_end', 10, 0 );
+
+// define the woocommerce_register_form_end callback
+function action_woocommerce_register_form_end() {
+  echo '<div class="new-fb-btn-custom new-fb-btn new-fb-4 new-fb-default-anim" style="margin-top:0"><div class="new-fb-4-1"><div class="new-fb-4-1-1"><a style="color: #ffffff!important; text-decoration:none" href="http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=http://mummily-porto.beargu.com" onclick="window.location = http://mummily-porto.beargu.com/wp-login.php?loginFacebook=1&redirect=%27+window.location.href; return false;">LOGIN WITH FACEBOOK</a></div></div></div>';
+};
+
+// add the action
+add_action( 'woocommerce_register_form_end', 'action_woocommerce_register_form_end', 10, 0 );
+
+add_filter('woocommerce_create_account_default_checked' , function ($checked){
+    return true;
+});

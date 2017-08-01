@@ -101,3 +101,12 @@ h3#ship-to-different-address{
 .seed-confirm-form{
     max-width: 800px;
 }
+div.new-fb-4{
+  width: 100%;
+}
+.seed-confirm-bank-info-bank{
+  min-width: 130px;
+}
+.seed-confirm-bank-info-account-number{
+  min-width: 160px;
+}
