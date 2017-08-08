@@ -4269,23 +4269,23 @@ body.boxed .page-wrapper {
 }
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item > a,
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item > h5 {
-  /*color: ;*/
+  color: ;
 }
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item > a:hover,
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item > h5:hover {
-  /*color: ;*/
+  color: ;
 }
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item.active > a,
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-item.active > h5 {
-  /*color: ;*/
+  color: ;
 }
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-custom-content a,
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-custom-content h5 {
-  /*color: ;*/
+  color: ;
 }
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-custom-content a:hover,
 #header.sticky-header .main-menu-wrap #main-menu .mega-menu > li.menu-custom-content h5:hover {
-  /*color: ;*/
+  color: ;
 }
 #header .main-menu-wrap .menu-right .searchform-popup .searchform {
   border-color: #cccccc;
@@ -4653,7 +4653,7 @@ body.boxed .page-wrapper {
 }
 #header .mobile-toggle {
   color: #999999;
-  /*background-color: ;*/
+  background-color: ;
 }
 #header .mobile-toggle:hover {
   color: #999999;
@@ -4662,7 +4662,6 @@ body.boxed .page-wrapper {
   #header.header-corporate .searchform button {
     color: #c3c3c3;
   }
-
 }
 @media (min-width: 992px) {
   #header.header-11 .header-main #main-menu .mega-menu > li.menu-item {
@@ -5048,9 +5047,7 @@ body.boxed .page-wrapper {
   background-position: initial;
   background-image: none;
   background-color: transparent;
-  padding-bottom: 10px;
 }
-
 #footer p,
 #footer .widget > div > ul li,
 #footer .widget > ul li {
@@ -5083,7 +5080,7 @@ body.boxed .page-wrapper {
   color: #ffffff;
 }
 #footer .widget.contact-info .contact-info-block .contact-details strong {
-  /*color: ;*/
+  color: ;
 }
 #footer .widgettitle,
 #footer .widget-title,
@@ -5168,7 +5165,5 @@ body.boxed .page-wrapper {
   }
 }
 
-
                     
-
                 
