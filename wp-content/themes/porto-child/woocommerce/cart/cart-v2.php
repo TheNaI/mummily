@@ -7,13 +7,27 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 $porto_woo_version = porto_get_woo_version_number();
 ?>
+<style>
+	.cart-v2 .panel.panel-default .panel-body tbody tr td:last-child{
+		padding-right: 0;
+	}
+	.cart-v2 .panel.panel-default .panel-body {
+		padding: 10px;
+	}
+	.cart_totals .order-total .amount, .review-order.shop_table .order-total .amount {
+		font-size: 14px;
+	}
+	.cart-v2 .panel.panel-default .panel-body tbody tr th{
+		padding: 0;
+	}
+</style>
 <div class="cart-v2">
 	<h2 class="heading-primary m-b-md font-weight-normal clearfix">
 		<span><?php _e( 'Shopping Cart', 'porto' ); ?></span>
 		<a href="<?php echo esc_url( wc_get_checkout_url() );?>" class="btn btn-primary pull-right proceed-to-checkout"><?php esc_html_e( 'Proceed to Checkout', 'porto' ); ?></a>
 	</h2>
 	<div class="row">
-		<div class="col-md-8 col-lg-9">
+		<div class="col-md-8">
 
 			<div class="featured-box align-left">
 				<div class="box-content">
@@ -149,7 +163,7 @@ $porto_woo_version = porto_get_woo_version_number();
 			</div>
 		</div>
 
-		<div class="col-md-4 col-lg-3">
+		<div class="col-md-4">
 			<div class="cart-collaterals">
 				<div class="panel-group">
 					<?php do_action( 'woocommerce_cart_collaterals' ); ?>

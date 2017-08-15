@@ -23,6 +23,8 @@ if ( ! is_ajax() ) {
 	do_action( 'woocommerce_review_order_before_payment' );
 }
 ?>
+
+
 <div id="payment" class="woocommerce-checkout-payment">
 
 	<?php if( porto_checkout_version() == 'v2' ): ?>

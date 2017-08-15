@@ -14,7 +14,12 @@ $checkout = WC()->checkout();
 
 // filter hook for include new pages inside the payment method
 $get_checkout_url = version_compare($porto_woo_version, '2.5', '<') ? apply_filters( 'woocommerce_get_checkout_url', WC()->cart->get_checkout_url() ) : wc_get_checkout_url(); ?>
-
+<style>
+	#order_review .col-md-6{
+		width: 100%;
+		padding-bottom: 10px;
+	}
+</style>
 <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( $get_checkout_url ); ?>" enctype="multipart/form-data">
 
 	<div class="row">
@@ -41,7 +46,7 @@ $get_checkout_url = version_compare($porto_woo_version, '2.5', '<') ? apply_filt
 
 			<div id="order_review" class="woocommerce-checkout-review-order">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<h3><?php _e( 'ตรวจสอบออเดอร์', 'porto'); ?></h3>
 						<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 					</div>
