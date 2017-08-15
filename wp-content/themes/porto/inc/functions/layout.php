@@ -7329,7 +7329,7 @@ function porto_minicart() {
 
 
                     <span class="cart-items">
-					
+
 					<?php echo ($minicart_type == 'minicart-inline') ? '<span class="mobile-hide">' . sprintf( _n( '%d item', '%d items', $_cartQty, 'porto' ), $_cartQty ) . '</span><span class="mobile-show">' . $_cartQty . '</span>' : (($_cartQty > 0) ? $_cartQty : '0'); ?></span>
 
 
