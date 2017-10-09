@@ -166,7 +166,7 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 
 
             </div>
-
+            <?php seed_social(); ?>
 
         </div>
 
@@ -207,5 +207,3 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
-
-
